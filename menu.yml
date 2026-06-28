@@ -1,1 +1,31 @@
+menu_title: '&#ff4e00&lSERVER MENU'
+open_command: menu
+size: 27
+
+items:
+  'store_item':
+    material: EMERALD
+    slot: 11
+    display_name: '&#00ffcc&lONLINE STORE'
+    lore:
+      - '&7Click to view our'
+      - '&7special server ranks.'
+      - ''
+      - '&#ffcc00» &#fff3a8Link: &://server.com'
+    left_click_commands:
+      - '[message] &a&l[!] &7Visit our store: &://server.com'
+      - '[close]'
+      
+  'discord_item':
+    material: COMPASS
+    slot: 15
+    display_name: '&#5865F2&lDISCORD SERVER'
+    lore:
+      - '&7Join our community'
+      - '&7and check latest news!'
+      - ''
+      - '&#ffcc00» &#fff3a8Link: &fdiscord.gg/server'
+    left_click_commands:
+      - '[message] &b&l[!] &7Join here: &fdiscord.gg/server'
+      - '[close]'
 
